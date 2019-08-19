@@ -1,0 +1,32 @@
+{
+  "name": "qiyana-front-end",
+  "version": "0.1.0",
+  "description": "Nuxt.js TypeScript project",
+  "author": "Leonardo C. Carvalho <i.leonardo.c.c@outlook.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "nuxt": "^2.8.1",
+    "nuxt-property-decorator": "^2.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.8.1",
+    "@typescript-eslint/parser": "^2.0.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-airbnb": "^4.0.1",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "eslint": "^6.1.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "nuxt-i18n": "^6.0.1",
+    "sass": "^1.22.10",
+    "sass-loader": "^7.2.0",
+    "ts-node": "^8.3.0"
+  }
+}
