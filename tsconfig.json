@@ -13,8 +13,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "@nuxt/vue-app",
       "@types/node",
+      "@nuxt/types"
     ],
     "paths": {
       "@/*": [
@@ -22,7 +22,7 @@
       ],
       "@@/*": [
         "*"
-      ],
+      ]
     },
     "lib": [
       "esnext",

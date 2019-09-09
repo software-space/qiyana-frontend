@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-import NuxtConfiguration from '@nuxt/config';
+import { Configuration } from '@nuxt/types';
 
 export default {
   mode: 'universal',
@@ -27,6 +27,8 @@ export default {
 
   modules: [],
 
+  buildModules: ['@nuxt/typescript-build'],
+
   build: {
     postcss: {
       plugins: {
@@ -40,4 +42,4 @@ export default {
       }
     },
   },
-} as NuxtConfiguration;
+} as Configuration;

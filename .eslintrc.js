@@ -26,7 +26,7 @@ module.exports = {
       'typescript': {},
     },
     'import/core-modules': [
-      '@nuxt/config',
+      '@nuxt/types',
       'vue',
     ],
   },
